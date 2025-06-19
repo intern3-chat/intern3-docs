@@ -3,8 +3,7 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
-		"sparse-clone": "bun run sparse-clone.ts",
-		"build": "bun sparse-clone && next build",
+		"build": "next build",
 		"dev": "next dev --turbo --port 3009",
 		"start": "next start",
 		"postinstall": "fumadocs-mdx"
